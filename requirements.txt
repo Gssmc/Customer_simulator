@@ -1,0 +1,13 @@
+streamlit
+logging
+pandas
+numpy
+matplotlib
+plotly
+spacy
+nltk
+textblob
+scikit-learn
+textstat
+torch
+transformers
