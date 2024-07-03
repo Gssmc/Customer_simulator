@@ -1,5 +1,4 @@
 streamlit
-logging
 pandas
 numpy
 matplotlib
@@ -9,5 +8,4 @@ nltk
 textblob
 scikit-learn
 textstat
-torch
 transformers
