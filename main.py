@@ -1,11 +1,9 @@
 import streamlit as st
-import logging
 import random
 import pandas as pd
 import numpy as np
 import os
 import time
-import torch
 from sklearn.metrics.pairwise import cosine_similarity
 import matplotlib.pyplot as plt
 import plotly.express as px
@@ -22,7 +20,6 @@ from transformers import TextClassificationPipeline
 st.set_page_config(page_title="BS-CUSTOMER", page_icon="💬", layout="wide")
 
 # Configure logging
-logging.basicConfig(filename='app.log', level=logging.ERROR)
 
 # Custom CSS for styling
 st.markdown("""
